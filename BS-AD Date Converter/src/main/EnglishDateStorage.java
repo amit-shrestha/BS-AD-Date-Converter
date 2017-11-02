@@ -126,12 +126,4 @@ public class EnglishDateStorage {
 
     public static int[] englishMonthDaysInLeapYear = new int[]{31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-    public static ArrayList<Integer> supportedNepaliYear = new ArrayList<Integer>();
-
-    static {
-        for (int i = 1999; i <= 2099; i++) {
-            supportedNepaliYear.add(i);
-        }
-    }
-;
 }
